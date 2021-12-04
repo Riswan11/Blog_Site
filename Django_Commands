@@ -1,0 +1,11 @@
+#django-admin: show you available sub-commands
+#startproject: create a new django project
+
+Django_Project
+init.py: (empty file: a python package)
+settings.py: 
+urls.py: set up our mappings
+wsgi.py: python web application communicates
+manage.py allows us to run commands
+
+#python manage.py runserver
