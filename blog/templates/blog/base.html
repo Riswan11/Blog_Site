@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {%if title %}
+    <title>Sport Blog - {{ title }}</title>
+    {% else %}
+    <title>Sport Blog</title>
+    {% endif %}
+</head>
+
+<body>
+    {% block content %} {% endblock %}
+</body>
+
+</html>
